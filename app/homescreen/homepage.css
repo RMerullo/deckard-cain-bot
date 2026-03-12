@@ -1,0 +1,69 @@
+.homepage-button {
+  /* Basic dimensions and background */
+  width: 150px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  background-color: #007bff; /* Example blue color */
+  color: white; /* Text color */
+  margin: 0 auto;
+  position: relative;
+
+  /* Text styling */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px; /* Vertically center text if height is fixed */
+
+  /* Remove default button styles */
+  border: none;
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
+
+  /* Optional: Add a subtle shadow */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+  /* Optional: Hover effect */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.homepage-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-container {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.discord-container {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.individual-button-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.image-container {
+  text-align:center;
+  width: 100%;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 78px;
+  width: 54px;
+}
+
+.discord {
+  display: inline-block;
+  color:#0056b3;
+}
+
+#discord-image {
+  display:inline-block;
+}
