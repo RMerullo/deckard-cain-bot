@@ -1,5 +1,4 @@
-{
-    "runewords": [
+const runewords = [
         {
             "name": "Breath of the Dying",
             "runes": [
@@ -3134,4 +3133,5 @@
             ]
         }
     ]
-}
+
+export default runewords;

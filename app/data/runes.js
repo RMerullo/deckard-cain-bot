@@ -1,0 +1,10 @@
+const runes = [{
+    "name": "el",
+    "imageUrl": "/assets/images/runes/el_rune.png",
+    "requiredLevel": 11,
+    "weaponEffect": "+50 Attack Rating, +1 Light Radius",
+    "helmetEffect": "+15 Defense, +1 Light Radius",
+    "armorEffect": "+15 Defense, +1 Light Radius",
+    "shieldEffect": "+15 Defense, +1 Light Radius"
+}]
+export default runes;
