@@ -16,9 +16,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": [
-                    null
-                ]
+                "subtype": []
             },
             "stats": [
                 "50% Chance To Cast Level 20 Poison Nova When You Kill An Enemy",
@@ -533,7 +531,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "5% Chance to cast level 1 Burst of Speed on striking",
@@ -559,7 +557,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "100% Chance To Cast level 40 Blaze When You Level Up",
@@ -1304,7 +1302,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "5% Chance to cast level 1 Burst of Speed on striking",
@@ -1329,7 +1327,7 @@
                 "type": [
                     "armor"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "+65% Faster Run/Walk",
@@ -1625,7 +1623,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "100% Chance To Cast Level 36 Blaze When You Level Up",
@@ -1806,7 +1804,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "Hit Causes Monster To Flee 25%",
@@ -2075,7 +2073,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "+1 To All Skills",
@@ -2237,7 +2235,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "20% Chance To Cast Level 15 Chilling Armor when Struck",
@@ -2422,7 +2420,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "200% Enhanced Damage",
@@ -3007,7 +3005,7 @@
                 "type": [
                     "weapon"
                 ],
-                "subtype": null
+                "subtype": []
             },
             "stats": [
                 "+25% Increased Attack Speed",
