@@ -1,4 +1,5 @@
-const runewords = [
+{
+    "runewords": [
         {
             "name": "Breath of the Dying",
             "runes": [
@@ -3133,5 +3134,4 @@ const runewords = [
             ]
         }
     ]
-
-export default runewords;
+}

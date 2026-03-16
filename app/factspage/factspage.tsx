@@ -1,8 +1,21 @@
 import './factspage.css';
 import '../assets/TestData.json';
-//import runes from 'app/data/runes.js';
+import type Rune from 'app/model/rune';
+import runes from '../data/runes.json';
 
-export default function FactsPage() {
-  //return (<h1>FACTSPAGE</h1>);
-  return (<img></img>)
+interface FactspageProps { }
+
+const Factspage = (props: FactspageProps) => {
+  return (
+    <>
+      {runes.map(rune => (
+        <>
+          <h1 key={rune.name}>{rune.name}</h1>
+          <img src={rune.imagePath}></img>
+        </>
+      ))}
+    </>
+  );
 }
+
+export default Factspage;
