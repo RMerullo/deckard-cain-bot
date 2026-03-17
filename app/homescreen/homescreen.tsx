@@ -1,8 +1,25 @@
 import titleImage from "~/assets/DeckardCainBotTitle.png";
 import { NavLink } from "react-router";
 import './homepage.css';
+import React, { useEffect, useState } from 'react';
+import runes from '../data/runes.json';
+import runewords from '../data/runewords.json';
+import { RunewordData } from "~/model/RunewordInterface";
+import { RuneData } from "~/model/RuneInterface";
+import Factspage from "~/factspage/factspage";
 
 export function HomeScreen() {
+  const [runes, setRunes] = useState<RuneData[]>([]);
+
+  useEffect(() => {
+    const fetchRunes = async () => {
+      const data: RuneData[] = runes;
+      setRunes(data);
+    };
+
+    fetchRunes();
+  }, []);
+
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
@@ -15,11 +32,14 @@ export function HomeScreen() {
             />
           </div>
         </header>
-         <div className="button-container">
-            <div className="individual-button-container">
-              <NavLink to="/factspage"><button className="homepage-button">Random Facts</button></NavLink>
-            </div>
+        <div className="button-container">
+          <div className="individual-button-container">
+            {/* <NavLink to="/factspage"><button className="homepage-button">Random Facts</button></NavLink> */}
+            <>
+              {/* <Factspage runes={runeData}><button className="homepage-button">Random Facts</button></Factspage> */}
+            </>
           </div>
+        </div>
         <div className="max-w-[300px] w-full space-y-6 px-4">
           <nav className="rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4">
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">

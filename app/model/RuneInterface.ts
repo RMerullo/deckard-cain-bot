@@ -1,4 +1,4 @@
-export default interface Rune {
+export interface RuneData {
     name: string
     imagePath: string
     requiredLevel: number
