@@ -128,7 +128,7 @@
     {
         "name": "hel",
         "imagePath": "/app/assets/images/runes/hel_rune.png",
-        "requiredLevel": null,
+        "requiredLevel": 1,
         "weaponEffect": "-20% Requirements",
         "helmetEffect": "-15% Requirements",
         "armorEffect": "-15% Requirements",

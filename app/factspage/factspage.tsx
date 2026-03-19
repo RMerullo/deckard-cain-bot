@@ -3,8 +3,14 @@ import '../assets/TestData.json';
 import { RunewordData } from "~/model/RunewordInterface";
 import { RuneData }  from "~/model/RuneInterface";
 
+type RuneProps = {
+  runes: RuneData[];
+};
 
-const FactsPage = ({ runes }: {runes: RuneData[]}) => {
+
+function FactsPage({ runes }: RuneProps) {
+  console.log('Factspage RUNES = ', runes);
+  if (!runes) return <div>Loading...</div>;
   return (
     <>
       {runes.map(rune => (
