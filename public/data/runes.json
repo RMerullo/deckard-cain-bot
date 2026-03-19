@@ -1,0 +1,301 @@
+{
+    "runes": [
+        {
+            "name": "el",
+            "imagePath": "/app/assets/images/runes/el_rune.png",
+            "requiredLevel": 11,
+            "weaponEffect": "+50 Attack Rating, +1 Light Radius",
+            "helmetEffect": "+15 Defense, +1 Light Radius",
+            "armorEffect": "+15 Defense, +1 Light Radius",
+            "shieldEffect": "+15 Defense, +1 Light Radius"
+        },
+        {
+            "name": "eld",
+            "imagePath": "/app/assets/images/runes/eld_rune.png",
+            "requiredLevel": 11,
+            "weaponEffect": "+75% Damage vs. Undead, +50 Attack Rating vs. Undead",
+            "helmetEffect": "Lowers Stamina drain by 15%",
+            "armorEffect": "Lowers Stamina drain by 15%",
+            "shieldEffect": "+7% Blocking"
+        },
+        {
+            "name": "tir",
+            "imagePath": "/app/assets/images/runes/tir_rune.png",
+            "requiredLevel": 13,
+            "weaponEffect": "+2 Mana Per Kill",
+            "helmetEffect": "+2 Mana Per Kill",
+            "armorEffect": "+2 Mana Per Kill",
+            "shieldEffect": "+2 Mana Per Kill"
+        },
+        {
+            "name": "nef",
+            "imagePath": "/app/assets/images/runes/nef_rune.png",
+            "requiredLevel": 13,
+            "weaponEffect": "Knockback",
+            "helmetEffect": "+30 Defense vs. Missile",
+            "armorEffect": "+30 Defense vs. Missile",
+            "shieldEffect": "+30 Defense vs. Missile"
+        },
+        {
+            "name": "eth",
+            "imagePath": "/app/assets/images/runes/eth_rune.png",
+            "requiredLevel": 15,
+            "weaponEffect": "-25% Target Defense",
+            "helmetEffect": "Regenerate Mana 15%",
+            "armorEffect": "Regenerate Mana 15%",
+            "shieldEffect": "Regenerate Mana 15%"
+        },
+        {
+            "name": "ith",
+            "imagePath": "/app/assets/images/runes/ith_rune.png",
+            "requiredLevel": 15,
+            "weaponEffect": "+9 to Maximum Damage",
+            "helmetEffect": "15% Damage Taken Goes to Mana",
+            "armorEffect": "15% Damage Taken Goes to Mana",
+            "shieldEffect": "15% Damage Taken Goes to Mana"
+        },
+        {
+            "name": "tal",
+            "imagePath": "/app/assets/images/runes/tal_rune.png",
+            "requiredLevel": 17,
+            "weaponEffect": "75 Poison damage over 5 seconds",
+            "helmetEffect": "+30% Poison Resistance",
+            "armorEffect": "+30% Poison Resistance",
+            "shieldEffect": "+35% Poison Resistance"
+        },
+        {
+            "name": "ral",
+            "imagePath": "/app/assets/images/runes/ral_rune.png",
+            "requiredLevel": 19,
+            "weaponEffect": "+5-30 Fire Damage",
+            "helmetEffect": "+30% Fire Resistance",
+            "armorEffect": "+30% Fire Resistance",
+            "shieldEffect": "+35% Fire Resistance"
+        },
+        {
+            "name": "ort",
+            "imagePath": "/app/assets/images/runes/ort_rune.png",
+            "requiredLevel": 21,
+            "weaponEffect": "+1-50 Lightning Damage",
+            "helmetEffect": "+30% Lightning Resistance",
+            "armorEffect": "+30% Lightning Resistance",
+            "shieldEffect": "+35% Lightning Resistance"
+        },
+        {
+            "name": "thul",
+            "imagePath": "/app/assets/images/runes/thul_rune.png",
+            "requiredLevel": 23,
+            "weaponEffect": "+3-14 Cold Damage (Cold Length 3 seconds)",
+            "helmetEffect": "+30% Cold Resistance",
+            "armorEffect": "+30% Cold Resistance",
+            "shieldEffect": "+35% Cold Resistance"
+        },
+        {
+            "name": "amn",
+            "imagePath": "/app/assets/images/runes/amn_rune.png",
+            "requiredLevel": 25,
+            "weaponEffect": "7% Life Stolen Per Hit",
+            "helmetEffect": "Attacker takes 14 damage",
+            "armorEffect": "Attacker takes 14 damage",
+            "shieldEffect": "Attacker takes 14 damage"
+        },
+        {
+            "name": "sol",
+            "imagePath": "/app/assets/images/runes/sol_rune.png",
+            "requiredLevel": 27,
+            "weaponEffect": "+9 to Minimum Damage",
+            "helmetEffect": "-7 Damage Taken",
+            "armorEffect": "-7 Damage Taken",
+            "shieldEffect": "-7 Damage Taken"
+        },
+        {
+            "name": "shael",
+            "imagePath": "/app/assets/images/runes/shael_rune.png",
+            "requiredLevel": 29,
+            "weaponEffect": "Faster Attack Rate (+20)",
+            "helmetEffect": "Faster Hit Recovery (+20)",
+            "armorEffect": "Faster Hit Recovery (+20)",
+            "shieldEffect": "Faster Block Rate (+20)"
+        },
+        {
+            "name": "dol",
+            "imagePath": "/app/assets/images/runes/dol_rune.png",
+            "requiredLevel": 31,
+            "weaponEffect": "25% Chance that Hit Causes Monster to Flee",
+            "helmetEffect": "+7 Replenish Life",
+            "armorEffect": "+7 Replenish Life",
+            "shieldEffect": "+7 Replenish Life"
+        },
+        {
+            "name": "hel",
+            "imagePath": "/app/assets/images/runes/hel_rune.png",
+            "requiredLevel": 1,
+            "weaponEffect": "-20% Requirements",
+            "helmetEffect": "-15% Requirements",
+            "armorEffect": "-15% Requirements",
+            "shieldEffect": "-15% Requirements"
+        },
+        {
+            "name": "io",
+            "imagePath": "/app/assets/images/runes/io_rune.png",
+            "requiredLevel": 35,
+            "weaponEffect": "+10 Vitality",
+            "helmetEffect": "+10 Vitality",
+            "armorEffect": "+10 Vitality",
+            "shieldEffect": "+10 Vitality"
+        },
+        {
+            "name": "lum",
+            "imagePath": "/app/assets/images/runes/lum_rune.png",
+            "requiredLevel": 37,
+            "weaponEffect": "+10 Energy",
+            "helmetEffect": "+10 Energy",
+            "armorEffect": "+10 Energy",
+            "shieldEffect": "+10 Energy"
+        },
+        {
+            "name": "ko",
+            "imagePath": "/app/assets/images/runes/ko_rune.png",
+            "requiredLevel": 39,
+            "weaponEffect": "+10 Dexterity",
+            "helmetEffect": "+10 Dexterity",
+            "armorEffect": "+10 Dexterity",
+            "shieldEffect": "+10 Dexterity"
+        },
+        {
+            "name": "fal",
+            "imagePath": "/app/assets/images/runes/fal_rune.png",
+            "requiredLevel": 41,
+            "weaponEffect": "+10 Strength",
+            "helmetEffect": "+10 Strength",
+            "armorEffect": "+10 Strength",
+            "shieldEffect": "+10 Strength"
+        },
+        {
+            "name": "lem",
+            "imagePath": "/app/assets/images/runes/lem_rune.png",
+            "requiredLevel": 43,
+            "weaponEffect": "+75% Extra Gold from Monsters",
+            "helmetEffect": "+50% Extra Gold from Monsters",
+            "armorEffect": "+50% Extra Gold from Monsters",
+            "shieldEffect": "+50% Extra Gold from Monsters"
+        },
+        {
+            "name": "pul",
+            "imagePath": "/app/assets/images/runes/pul_rune.png",
+            "requiredLevel": 45,
+            "weaponEffect": "+75% Damage to Demons, +100 AR against Demons",
+            "helmetEffect": "+30% Defense",
+            "armorEffect": "+30% Defense",
+            "shieldEffect": "+30% Defense"
+        },
+        {
+            "name": "um",
+            "imagePath": "/app/assets/images/runes/um_rune.png",
+            "requiredLevel": 47,
+            "weaponEffect": "25% Chance of Open Wounds",
+            "helmetEffect": "+15% Resist All",
+            "armorEffect": "+15% Resist All",
+            "shieldEffect": "+22% Resist All"
+        },
+        {
+            "name": "mal",
+            "imagePath": "/app/assets/images/runes/mal_rune.png",
+            "requiredLevel": 49,
+            "weaponEffect": "Prevent Monster Healing",
+            "helmetEffect": "Reduce Magic Damage by 7",
+            "armorEffect": "Reduce Magic Damage by 7",
+            "shieldEffect": "Reduce Magic Damage by 7"
+        },
+        {
+            "name": "ist",
+            "imagePath": "/app/assets/images/runes/ist_rune.png",
+            "requiredLevel": 51,
+            "weaponEffect": "+30% Better Chance of Finding Magical Items",
+            "helmetEffect": "+25% Better Chance of Finding Magical Items",
+            "armorEffect": "+25% Better Chance of Finding Magical Items",
+            "shieldEffect": "+25% Better Chance of Finding Magical Items"
+        },
+        {
+            "name": "gul",
+            "imagePath": "/app/assets/images/runes/gul_rune.png",
+            "requiredLevel": 53,
+            "weaponEffect": "+20% Bonus to Attack Rating",
+            "helmetEffect": "+5% to Maximum Poison Resist",
+            "armorEffect": "+5% to Maximum Poison Resist",
+            "shieldEffect": "+5% to Maximum Poison Resist"
+        },
+        {
+            "name": "vex",
+            "imagePath": "/app/assets/images/runes/vex_rune.png",
+            "requiredLevel": 55,
+            "weaponEffect": "7% Mana Leech",
+            "helmetEffect": "+5% to Maximum Fire Resist",
+            "armorEffect": "+5% to Maximum Fire Resist",
+            "shieldEffect": "+5% to Maximum Fire Resist"
+        },
+        {
+            "name": "ohm",
+            "imagePath": "/app/assets/images/runes/ohm_rune.png",
+            "requiredLevel": 57,
+            "weaponEffect": "+50% Damage",
+            "helmetEffect": "+5% to Maximum Cold Resist",
+            "armorEffect": "+5% to Maximum Cold Resist",
+            "shieldEffect": "+5% to Maximum Cold Resist"
+        },
+        {
+            "name": "lo",
+            "imagePath": "/app/assets/images/runes/lo_rune.png",
+            "requiredLevel": 59,
+            "weaponEffect": "20% Chance of Deadly Strike",
+            "helmetEffect": "+5% to Maximum Lightning Resist",
+            "armorEffect": "+5% to Maximum Lightning Resist",
+            "shieldEffect": "+5% to Maximum Lightning Resist"
+        },
+        {
+            "name": "sur",
+            "imagePath": "/app/assets/images/runes/sur_rune.png",
+            "requiredLevel": 61,
+            "weaponEffect": "20% Chance of Hit Blinds Target",
+            "helmetEffect": "Increase Maximum Mana 5%",
+            "armorEffect": "Increase Maximum Mana 5%",
+            "shieldEffect": "+50 to Mana"
+        },
+        {
+            "name": "ber",
+            "imagePath": "/app/assets/images/runes/ber_rune.png",
+            "requiredLevel": 63,
+            "weaponEffect": "20% Chance of Crushing Blow",
+            "helmetEffect": "Damage Reduced by 8%",
+            "armorEffect": "Damage Reduced by 8%",
+            "shieldEffect": "Damage Reduced by 8%"
+        },
+        {
+            "name": "jah",
+            "imagePath": "/app/assets/images/runes/jah_rune.png",
+            "requiredLevel": 65,
+            "weaponEffect": "Ignores Target Defense",
+            "helmetEffect": "Increase Maximum Life 5%",
+            "armorEffect": "Increase Maximum Life 5%",
+            "shieldEffect": "+50 to Life"
+        },
+        {
+            "name": "cham",
+            "imagePath": "/app/assets/images/runes/cham_rune.png",
+            "requiredLevel": 67,
+            "weaponEffect": "32% Chance of Hit Freezing Target for 3 seconds",
+            "helmetEffect": "Cannot be Frozen",
+            "armorEffect": "Cannot be Frozen",
+            "shieldEffect": "Cannot be Frozen"
+        },
+        {
+            "name": "zod",
+            "imagePath": "/app/assets/images/runes/zod_rune.png",
+            "requiredLevel": 69,
+            "weaponEffect": "Indestructible",
+            "helmetEffect": "Indestructible",
+            "armorEffect": "Indestructible",
+            "shieldEffect": "Indestructible"
+        }
+    ]
+}

@@ -2,15 +2,13 @@ import titleImage from "~/assets/DeckardCainBotTitle.png";
 import { NavLink } from "react-router";
 import './homepage.css';
 import React, { useEffect, useState } from 'react';
-import runesJSON from '../data/runes.json';
-import runewordsJSON from '../data/runewords.json';
+// import runewordsJSON from '../data/runewords.json';
 import { RunewordData } from "~/model/RunewordInterface";
 import { RuneData } from "~/model/RuneInterface";
-import Factspage from "~/factspage/factspage";
+import RunewordGuesser from "~/RunewordGuesser/RunewordGuesser";
 
 export function HomeScreen() {
-  const [runes, setRunes] = useState<RuneData[]>(runesJSON);
-
+  // console.log("HomeScreen runes = ", runes);
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
@@ -27,8 +25,7 @@ export function HomeScreen() {
           <div className="individual-button-container">
             {/* <NavLink to="/factspage"><button className="homepage-button">Random Facts</button></NavLink> */}
             <>
-              {/* <Factspage runes={runeData}><button className="homepage-button">Random Facts</button></Factspage> */}
-              <Factspage runes={runes} />
+              {/* <RunewordGuesser runes={runes} /> */}
             </>
           </div>
         </div>
