@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
 import { HomeScreen } from "../homescreen/homescreen";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -11,20 +11,29 @@ export function meta({ }: Route.MetaArgs) {
 
 export default function Home() {
   const [runes, setRunes] = useState();
+  const [runewords, setRunewords] = useState();
 
   useEffect(() => {
+
     async function fetchRunes() {
       const response = await fetch('/data/runes.json');
       const runeList = await response.json();
 
       setRunes(runeList);
-      console.log(runeList);
+    }
+
+    async function fetchRunewords() {
+      const response = await fetch('/data/runewords.json');
+      const runewordList = await response.json();
+
+      setRunewords(runewordList);
     }
 
     fetchRunes();
-  }, []);
+    fetchRunewords();
+  }, []); // Empty dependency array means this effect runs once on mount
 
-  return <div>
-    {JSON.stringify(runes)}
-  </div>
+  return (
+    <HomeScreen runes={runes} runewords={runewords} />
+  );
 }

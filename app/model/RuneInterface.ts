@@ -1,8 +1,4 @@
 export interface RuneData {
-    runes: Rune[]
-}
-
-export interface Rune {
     name: string
     imagePath: string
     requiredLevel: number
