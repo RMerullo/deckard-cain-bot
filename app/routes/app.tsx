@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { HomeScreen } from "../homescreen/homescreen";
+import { HomeScreen } from "./homescreen";
 import { useState, useEffect } from 'react';
 
 export function meta({ }: Route.MetaArgs) {
@@ -9,7 +9,7 @@ export function meta({ }: Route.MetaArgs) {
   ];
 }
 
-export default function Home() {
+export default function App() {
   const [runes, setRunes] = useState();
   const [runewords, setRunewords] = useState();
 

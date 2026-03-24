@@ -1,10 +1,10 @@
 import titleImage from "~/assets/DeckardCainBotTitle.png";
-import './homepage.css';
+import './app/model/homescreen.css';
 import { RunewordData } from "~/model/RunewordInterface";
 import { RuneData } from "~/model/RuneInterface";
 import { useNavigate } from 'react-router-dom';
 import { NavLink } from "react-router";
-import { Runewordle } from "~/runewordle/runewordle";
+import { Runewordle } from "~/routes/runewordle";
 
 interface HomeScreenProps {
   runes?: RuneData[];
@@ -27,14 +27,14 @@ export function HomeScreen({ runes, runewords }: HomeScreenProps) {
         </header>
         <div className="button-container">
           <div className="individual-button-container">
-            {/* <NavLink
+            <NavLink
               to="/runewordle"
               state={{ runes, runewords }}
             >
               <button className="homepage-button">
                 Runewordle
               </button>
-            </NavLink> */}
+            </NavLink>
           </div>
         </div>
         <div className="max-w-[300px] w-full space-y-6 px-4">
