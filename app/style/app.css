@@ -1,0 +1,7 @@
+#loading-image-div {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;       /* Makes the container the full height of the viewport */
+  width: 100%;             /* Ensures container takes full width */
+}

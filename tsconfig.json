@@ -17,6 +17,8 @@
     "paths": {
       "~/*": ["./app/*"]
     },
+    "declaration": true,       /* Generates corresponding .d.ts file. */
+    "declarationDir": "./types",
     "esModuleInterop": true,
     "verbatimModuleSyntax": false,
     "noEmit": true,
