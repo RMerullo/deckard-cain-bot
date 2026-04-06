@@ -1,4 +1,4 @@
-import "app/style/runewordle.css";
+import "@/style/runewordle.css";
 import { RunewordData } from "~/model/RunewordInterface";
 import { RuneData } from "~/model/RuneInterface";
 import { DataContext } from "~/context/DataContext";

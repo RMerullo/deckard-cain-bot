@@ -1,4 +1,6 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeScreen from "./HomeScreen";
+import Runewordle from "./RuneWordle";
 
 export function meta({ }) {
   return [
@@ -9,6 +11,11 @@ export function meta({ }) {
 
 export default function App() {
   return (
-    <HomeScreen />
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/runewordle" element={<Runewordle />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

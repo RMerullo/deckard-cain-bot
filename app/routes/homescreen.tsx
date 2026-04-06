@@ -1,6 +1,6 @@
-import titleImage from "~/assets/DeckardCainBotTitle.png";
-import "app/style/homescreen.css";
-import { useNavigate } from 'react-router-dom';
+import titleImage from "@/assets/images/homescreen/DeckardCainBotTitle.png";
+import "@/style/runewordle.css";
+import { useNavigate } from "@remix-run/react";
 import { Outlet } from "react-router-dom";
 import React, { useContext } from 'react';
 import { DataContext } from "~/context/DataContext";
